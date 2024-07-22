@@ -21,9 +21,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={cn("bg-[#fafafa]", inter.className)}>
         <Header />
-        <main className='mt-[65px] max-w-[1250px] p-5 xl:px-0 mx-auto'>
-          {children}
-        </main>
+        <main className='max-w-[1250px] p-5 xl:px-0 mx-auto'>{children}</main>
         <Footer />
       </body>
     </html>
