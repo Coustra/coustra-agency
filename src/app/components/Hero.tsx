@@ -7,11 +7,11 @@ export const Hero = () => {
   return (
     <div className='min-h-screen pt-[65px] w-full flex items-center justify-center flex-col gap-3'>
       <div className='max-w-[850px] text-center gap-5 flex flex-col'>
-        <h1 className='text-5xl font-semibold tracking-wide text-[#333] leading-tight'>
+        <h1 className='md:text-5xl sm:text-3xl text-xl font-semibold tracking-wide text-[#333] leading-tight'>
           Blank Studio is building the next generation of software solutions in
           the direct-to-consumer space.
         </h1>
-        <h3 className='text-base opacity-75'>
+        <h3 className='text-lg font-light opacity-65'>
           A company of third culture thinkers building simple but impactful
           community-driven software solutions based out of Hong Kong, Barcelona,
           Amsterdam, London, Shanghai and New York
