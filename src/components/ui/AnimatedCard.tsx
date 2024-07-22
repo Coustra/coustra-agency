@@ -47,7 +47,7 @@ export const AnimatedCard = (props: Props) => {
     <Card
       ref={cardRef}
       className={cn(
-        "p-5 rounded-2xl shadow-lg",
+        "p-5 rounded-3xl shadow-lg",
         {
           "animate-scale-up": isVisible,
           "animate-scale-down": !isVisible,
