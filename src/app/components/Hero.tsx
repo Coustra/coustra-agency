@@ -8,13 +8,14 @@ export const Hero = () => {
     <div className='min-h-screen pt-[65px] w-full flex items-center justify-center flex-col gap-3'>
       <div className='max-w-[850px] text-center gap-5 flex flex-col'>
         <h1 className='md:text-5xl sm:text-3xl text-xl font-semibold tracking-wide text-[#333] leading-tight'>
-          Blank Studio is building the next generation of software solutions in
-          the direct-to-consumer space.
+          Coustra is pioneering the future of software solutions in the
+          direct-to-consumer space.
         </h1>
         <h3 className='text-lg font-light opacity-65'>
-          A company of third culture thinkers building simple but impactful
-          community-driven software solutions based out of Hong Kong, Barcelona,
-          Amsterdam, London, Shanghai and New York
+          As a unique studio and agency comprised of creators, we collaborate
+          with communities to develop software solutions. Through our funding
+          platform, the community can evaluate and rate ideas, invest in
+          promising projects, and receive shares.
         </h3>
       </div>
       <Link
