@@ -29,11 +29,7 @@ export const defaultLinkStyles = (style?: NavLinkProps["variant"]): string => {
 export const NavLink = (props: NavLinkProps) => {
   const { className, variant } = props;
   return (
-    <Link
-      href={"/"}
-      className={cn(defaultLinkStyles(variant), className)}
-      role='link'
-    >
+    <Link className={cn(defaultLinkStyles(variant), className)} {...props}>
       {props.children}
     </Link>
   );
