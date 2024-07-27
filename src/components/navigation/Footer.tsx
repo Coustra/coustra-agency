@@ -8,7 +8,11 @@ export const Footer = () => {
       <div className='max-w-[1250px] m-auto w-full flex items-center justify-between gap-4'>
         <p className='text-sm font-medium'>© Coustra Limited</p>
         <nav className='flex items-center gap-4'>
-          <NavLink variant='small' href={"/community"}>
+          <NavLink
+            variant='small'
+            href={"https://www.instagram.com/jonasdevjourney/"}
+            target='_blank'
+          >
             Community
           </NavLink>
           <NavLink variant='small' href={"/contact"}>
