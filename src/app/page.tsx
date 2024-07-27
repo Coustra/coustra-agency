@@ -14,7 +14,7 @@ export default function HomePage() {
       <SectionWrapper className='my-16'>
         <HeadlineSection />
       </SectionWrapper>
-      <SectionWrapper className='my-32'>
+      <SectionWrapper className='my-32' section='creator-agency'>
         <ImageCard left />
       </SectionWrapper>
       <SectionWrapper className='my-32'>
