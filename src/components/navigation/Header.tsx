@@ -9,7 +9,7 @@ export const Header = () => {
       <div className='max-w-[1250px] m-auto w-full flex items-center justify-between gap-4'>
         <Logo />
         <nav className='flex items-center gap-4'>
-          <NavLink href={"/jobs"}>Jobs</NavLink>
+          <NavLink href={"/jobs"}>Projects</NavLink>
           <NavLink
             href={"https://www.instagram.com/jonasdevjourney/"}
             target='_blank'
