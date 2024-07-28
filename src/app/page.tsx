@@ -9,16 +9,47 @@ export default function HomePage() {
     <>
       <Hero />
       <SectionWrapper className='my-32'>
-        <ImageCard />
+        <ImageCard
+          title='Creator Company'
+          text=' While being more connected than ever, we feel more disconnected than
+            ever. People desire to belong and be part of something bigger than
+            ourselves. We swear by creator-driven companies embracing
+            communities being the future. This thesis drives the company culture
+            at Blank Studio shaping the processes and systems of the company—a
+            culture driven by freedom with a lot of responsibility.'
+        />
       </SectionWrapper>
       <SectionWrapper className='my-16'>
-        <HeadlineSection />
+        <HeadlineSection
+          sectionTitle='About us'
+          title='A true creator company at heart.'
+          text='A company of third culture thinkers building simple but impactful
+          community-driven software solutions based out of Hong Kong, Barcelona,
+          Amsterdam, London, Shanghai and New York'
+        />
       </SectionWrapper>
       <SectionWrapper className='my-32' section='creator-agency'>
-        <ImageCard left />
+        <ImageCard
+          left
+          title='Creator Company'
+          text=' While being more connected than ever, we feel more disconnected than
+            ever. People desire to belong and be part of something bigger than
+            ourselves. We swear by creator-driven companies embracing
+            communities being the future. This thesis drives the company culture
+            at Blank Studio shaping the processes and systems of the company—a
+            culture driven by freedom with a lot of responsibility.'
+        />
       </SectionWrapper>
       <SectionWrapper className='my-32'>
-        <ImageCard />
+        <ImageCard
+          title='Creator Company'
+          text=' While being more connected than ever, we feel more disconnected than
+            ever. People desire to belong and be part of something bigger than
+            ourselves. We swear by creator-driven companies embracing
+            communities being the future. This thesis drives the company culture
+            at Blank Studio shaping the processes and systems of the company—a
+            culture driven by freedom with a lot of responsibility.'
+        />
       </SectionWrapper>
       <SectionWrapper className='my-16 mt-32'>
         <ContactCard />
