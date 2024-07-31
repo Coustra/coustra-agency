@@ -12,7 +12,11 @@ interface ShinySectionTextProps {
 export async function ShinySectionText(props: ShinySectionTextProps) {
   const { text, link } = props;
   return (
-    <Link href={link || "#"} className='z-10 flex items-center justify-center'>
+    <Link
+      href={link || "#"}
+      scroll={props.scroll}
+      className='z-10 flex items-center justify-center'
+    >
       <div
         className={cn(
           "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800"

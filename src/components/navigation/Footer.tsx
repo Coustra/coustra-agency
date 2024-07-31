@@ -15,7 +15,7 @@ export const Footer = () => {
           >
             Community
           </NavLink>
-          <NavLink variant='small' href={"/contact"}>
+          <NavLink variant='small' href={"https://tally.so/r/w2rW0V"}>
             Contact Us
           </NavLink>
         </nav>
