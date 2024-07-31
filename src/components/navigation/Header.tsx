@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
 import { NavLink } from "../ui/NavLink";
 import { Logo } from "../ui/Logo";
