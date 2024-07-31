@@ -18,9 +18,9 @@ export const Hero = () => {
         </h1>
         <h3 className='text-lg font-light opacity-65'>
           As a unique studio and agency comprised of creators, we collaborate
-          with communities to develop software solutions. Through our funding
-          platform, the community can evaluate and rate ideas, invest in
-          promising projects, and receive shares.
+          with communities to develop software solutions. Through crowdfunding,
+          the community can evaluate and rate ideas and invest in promising
+          projects.
         </h3>
       </div>
       <ShimmerButton

@@ -1,3 +1,5 @@
+"use client";
+
 /* eslint-disable react/no-unescaped-entities */
 import { AnimatedCard } from "@/components/ui/AnimatedCard";
 import React from "react";
@@ -5,8 +7,11 @@ import { HeadlineSection } from "./HeadlineSection";
 import { CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { ShinySectionText } from "@/components/ui/ShinySectionText";
+import ShimmerButton from "@/components/magicui/shimmer-button";
+import { useRouter } from "next/navigation";
 
 export const ContactCard = () => {
+  const router = useRouter();
   return (
     <AnimatedCard>
       <CardContent className='py-20'>
@@ -18,13 +23,19 @@ export const ContactCard = () => {
           <p className='md:text-lg font-light opacity-65 max-w-[500px]'>
             We love building them even more. So if you have a project in mind,
             don't hesitate to reach out to us.{" "}
-            <span className='font-medium hover:underline'>
+            {/* <span className='font-medium hover:underline'>
               <Link href={"mailto:contact@theblank.studio"}>
                 dev@coustra.com
               </Link>
-            </span>
+            </span> */}
           </p>
-        </div>{" "}
+          <ShimmerButton
+            className='shadow-2xl py-1.5'
+            onClick={() => router.push("https://tally.so/r/3E02NN")}
+          >
+            Contact us
+          </ShimmerButton>
+        </div>
       </CardContent>
     </AnimatedCard>
   );
