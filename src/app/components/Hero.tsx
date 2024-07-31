@@ -25,10 +25,10 @@ export const Hero = () => {
       </div>
       <ShimmerButton
         className='shadow-2xl py-2 px-6 z-[5]'
-        onClick={() => router.push("/projects")}
+        onClick={() => router.push("https://tally.so/r/3E02NN")}
       >
         <span className='whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg'>
-          Explore our projects
+          Have an idea?
         </span>
       </ShimmerButton>
     </AnimatedGridWrapper>
